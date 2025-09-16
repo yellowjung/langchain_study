@@ -1,5 +1,6 @@
 langchain
 langchain-openai
+langchain-community
 langchain-pinecone
 python-dotenv
 langchainhub
