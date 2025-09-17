@@ -5,3 +5,5 @@ langchain-pinecone
 python-dotenv
 langchainhub
 black
+pypdf
+faiss-cpu
