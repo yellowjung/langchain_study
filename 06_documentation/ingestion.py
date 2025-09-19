@@ -48,7 +48,11 @@ async def main():
         "max_depth": 5,
         "extra_depth": "advanced",
     })
-
+    all_docs = [Document(page_content=result['raw_content'],
+                         metadata={"source": result['url']}) for result in res['results']]
+    log_success(
+        f"TavilyCrawl: Successfully crawled {len(all_docs)} URLs from documents site.",
+    )
 
 if __name__ == "__main__":
     asyncio.run(main())
