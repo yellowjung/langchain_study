@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "black>=25.1.0",
     "faiss-cpu>=1.12.0",
+    "isort>=7.0.0",
     "langchain>=0.3.27",
     "langchain-chroma>=0.2.6",
     "langchain-community>=0.3.29",
@@ -14,6 +15,7 @@ dependencies = [
     "langchain-pinecone>=0.2.12",
     "langchain-tavily>=0.2.11",
     "langchainhub>=0.1.21",
+    "langgraph>=0.6.10",
     "pypdf>=6.0.0",
     "python-dotenv>=1.1.1",
 ]
