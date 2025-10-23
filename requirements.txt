@@ -11,3 +11,7 @@ pypdf
 faiss-cpu
 langchain_chroma
 langchain_tavily
+jupyter
+notebook
+py-zerox
+nest_asyncio
