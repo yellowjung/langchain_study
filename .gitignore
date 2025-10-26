@@ -175,3 +175,4 @@ cython_debug/
 .idea/
 
 **/chroma.sqlite3
+**/langchain-docs
