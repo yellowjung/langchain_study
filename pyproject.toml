@@ -6,12 +6,15 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "black>=25.1.0",
+    "ddgs>=9.9.3",
+    "duckduckgo-search>=8.1.1",
     "faiss-cpu>=1.12.0",
     "isort>=7.0.0",
     "jupyter>=1.1.1",
     "langchain>=0.3.27",
     "langchain-chroma>=0.2.6",
     "langchain-community>=0.3.29",
+    "langchain-google-community[gmail]>=2.0.10",
     "langchain-openai>=0.3.33",
     "langchain-pinecone>=0.2.12",
     "langchain-tavily>=0.2.11",
